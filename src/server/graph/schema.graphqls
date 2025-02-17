@@ -1,0 +1,17 @@
+scalar Date
+
+type Ping {
+  timestamp: Date!
+}
+
+type Query {
+  latestPing: Ping
+}
+
+type Mutation {
+  createPing: Ping!
+}
+
+type Subscription {
+  latestPing: Ping!
+}
