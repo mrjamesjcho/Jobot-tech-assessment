@@ -22,6 +22,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Screenshot - Two separate windows running:
+- "Created new ping" tile displays the timestamp of the new ping created every 1-3 seconds
+- "Latest Ping" tile initially displays the latest ping via query then continues to display the timestamp of the latest ping from the subscription
+![Jobot](https://github.com/user-attachments/assets/e1e1bac5-b357-410a-80a0-fd9bde38e78e)
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
