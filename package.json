@@ -1,0 +1,36 @@
+{
+  "name": "jobot-assessment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "codegen": "graphql-codegen",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "go run server.go"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.13.1",
+    "@apollo/experimental-nextjs-app-support": "^0.11.9",
+    "graphql": "^16.10.0",
+    "graphql-ws": "^6.0.4",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@graphql-codegen/cli": "^5.0.5",
+    "@graphql-codegen/client-preset": "^4.6.2",
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
